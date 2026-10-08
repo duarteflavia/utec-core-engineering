@@ -6,4 +6,4 @@ for i in range(ord("a"), ord("z") + 1):
     if letra != 'q' and letra != 'e':
         alfa += letra
 
-print("{}".format(alfa))
+print("{}".format(alfa), end="")
