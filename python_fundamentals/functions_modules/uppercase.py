@@ -6,5 +6,5 @@ def uppercase(str):
             caracter_mayus = chr(ord(c) - 32)
             resultado += caracter_mayus
         else:
-            resultado = resultado + c
+            resultado += c
     print(resultado)
