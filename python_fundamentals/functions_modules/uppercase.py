@@ -7,4 +7,4 @@ def uppercase(str):
             resultado += caracter_mayus
         else:
             resultado += c
-    print(resultado)
+    print(f"{resultado}")
