@@ -6,7 +6,7 @@ def pow(a, b):
     res = 1
     rango = abs(b)
     for _ in range(rango):
-            res *= a
+        res *= a
 
     if b < 0:
         return 1 / res
