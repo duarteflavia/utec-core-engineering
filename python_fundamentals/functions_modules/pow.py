@@ -8,5 +8,7 @@ def pow(a, b):
             res *= a
     elif b == 0:
         return 1
+    elif b < 0:
+        return 1 / res
 
     return res
