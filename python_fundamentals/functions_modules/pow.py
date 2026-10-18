@@ -7,6 +7,6 @@ def pow(a, b):
         for _ in range(rango):
             res *= a            
     elif b == 0:
-        res = 1
+        return 1
 
-    print(res)
+    return resultado
