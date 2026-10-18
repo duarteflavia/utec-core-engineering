@@ -5,8 +5,8 @@ def pow(a, b):
     if b > 0:
         rango = b
         for _ in range(rango):
-            res *= a            
+            res *= a
     elif b == 0:
         return 1
 
-    return resultado
+    return res
