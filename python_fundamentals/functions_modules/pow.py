@@ -4,5 +4,5 @@ def pow(a, b):
         for i in b:
             res = 1*a 
             i += 1
-    elif b = 0:
+    elif b == 0:
         res = 1
