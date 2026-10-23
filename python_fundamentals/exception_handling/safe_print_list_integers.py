@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 def safe_print_list_integers(my_list=[], x=0):
     nb_print = 0
@@ -8,4 +9,4 @@ def safe_print_list_integers(my_list=[], x=0):
             continue
         nb_print += 1
     print()
-    return printed
+    return nb_print
