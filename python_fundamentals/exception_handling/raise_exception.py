@@ -1,3 +1,6 @@
 #!/usr/bin/env python3
 def raise_exception():
-    int("hello")
+    try:
+        int("hello")
+    except (ValueError):
+        print("valor no valido")
