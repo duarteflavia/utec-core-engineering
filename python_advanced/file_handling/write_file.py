@@ -5,6 +5,4 @@
 def write_file(filename="", text=""):
     """Escribe un archivo y lee la cant de caracteres"""
     with open(filename, "w", encoding="utf-8") as f:
-        written = f.write(text)
-
-print(written)
+        return f.write(text)
