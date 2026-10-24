@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Escribe una cadena en un archivo y devuelve el nro de caracteres escritos."""
+"""Escribe una cadena en un archivo devuelve nro de caracteres escritos"""
 
 
 def write_file(filename="", text=""):
