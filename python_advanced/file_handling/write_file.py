@@ -2,9 +2,9 @@
 """Este modulo contiene una funcion para escribe una cadena en un archivo de texto y devuelva el nro de caracteres escritos."""
 
 
-    def write_file(filename="", text=""):
-        """Escribe un archivo y lee la cant de caracteres"""
-        with open(filename, "w", encoding="utf-8") as f:
-            written = f.write(text)
+def write_file(filename="", text=""):
+    """Escribe un archivo y lee la cant de caracteres"""
+    with open(filename, "w", encoding="utf-8") as f:
+        written = f.write(text)
 
-    print(written)
+print(written)
