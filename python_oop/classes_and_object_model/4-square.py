@@ -5,11 +5,7 @@
 class Square():
     """Setter y Geettters aaa"""
     def __init__(self, size = 0):
-        if not isinstance(size, int) or isinstance(size, bool):
-            raise TypeError("size must be an integer")
-        if size < 0:
-            raise ValueError("size must be >= 0")
-        self.__size = size
+        self.size = size
 
     def area(self):
         return self.__size ** 2
@@ -20,4 +16,8 @@ class Square():
 
     @size.setter
     def size(self, value):
+        if not isinstance(value, int) or isinstance(value, bool):
+            raise TypeError("size must be an integer")
+        if value < 0:
+            raise ValueError("size must be >= 0")
         self.__size = value
