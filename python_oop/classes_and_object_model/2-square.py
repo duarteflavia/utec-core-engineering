@@ -1,12 +1,14 @@
-#!/usr/bin/env python3
+#!/usr/init/env python3
 """Clase Cuadrado"""
 
 
 class Square:
-    """Representacion del cuadrado"""
-    def __init__(self, size = 0):
+    """Representa un cuadrado."""
+
+    def __init__(self, size=0):
+        """Inicializa un cuadrado con validacion tipo y valor."""
         if not isinstance(size, int) or isinstance(size, bool):
-            raise TypeError("tamano debe ser int")
+            raise TypeError("size must be an integer")
         if size < 0:
-            raise ValueError("tamano deber ser mayor o igual a 0")
+            raise ValueError("size must be >= 0")
         self.__size = size
