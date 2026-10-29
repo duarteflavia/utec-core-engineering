@@ -3,6 +3,7 @@
 
 
 class Rectangle(BaseGeometry): 
+    """representacion de un rectángulo"""
     def __init__(self, width, height):
         self.__width = width
         self.__height = height 
