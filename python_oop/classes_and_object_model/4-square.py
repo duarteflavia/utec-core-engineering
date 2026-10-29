@@ -4,7 +4,7 @@
 
 class Square():
     """Setter y Geettters aaa"""
-    def __init__(self, size = 0):
+    def __init__(self, size=0):
         self.size = size
 
     def area(self):
