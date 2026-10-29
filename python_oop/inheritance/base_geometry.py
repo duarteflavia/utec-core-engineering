@@ -4,7 +4,6 @@
 
 class BaseGeometry():
     """comportamiento comun de figuras"""
-    
     def integer_validator(self, name, value):
         if not isinstance(value, int) or isinstance(value, bool):
             raise TypeError(f"{name} must be an integer")
