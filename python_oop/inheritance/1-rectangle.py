@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Clase Rectangle que herede de BaseGeometry"""
 
+BaseGeometry = __import__('base_geometry').BaseGeometry
+
 
 class Rectangle(BaseGeometry): 
     """representacion de un rectángulo"""
