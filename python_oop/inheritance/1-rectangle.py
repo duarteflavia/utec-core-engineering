@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Clase Rectangle que herede de BaseGeometry"""
+import base_geometry
 
 
 class Rectangle(BaseGeometry): 
