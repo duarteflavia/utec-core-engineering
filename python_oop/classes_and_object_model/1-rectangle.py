@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
+"""Clase rectangulo"""
+
 
 class Rectangle():
-  def __init__(self, width=0, height=0):
-    self.width = width
-    self.height = height
+    """Comportamiento de un rectangulo basico"""
+    def __init__(self, ancho=0, alt=0):
+        self.width = ancho
+        self.height = alt
 
-@property
+    @property
     def width(self):
         return self.__width
 
