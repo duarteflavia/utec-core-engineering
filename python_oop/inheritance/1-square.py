@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Clase Square que herede de Rectangle"""
 
-Rectangle = __import__('1-rectangle').rectangle
+Rectangle = __import__('1-rectangle').Rectangle
 
 class Square(Rectangle):
     """Comportamiento de Square"""
